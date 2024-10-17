@@ -1,0 +1,146 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 oct 2024, 19:57:59
+    Author     : Luc-j
+*/
+
+/* styles.css */
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #6C3483, #58D68D);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+h1 {
+    font-size: 24px;
+    color: #58D68D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+/* Estilos del botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de la validación */
+input:invalid,
+select:invalid {
+    border-color: #e3342f;
+}
+
+input:valid,
+select:valid {
+    border-color: #38c172;
+}
+
+/* Estilos de mensajes adicionales */
+p {
+    text-align: center;
+    color: #666;
+    margin-top: 15px;
+}
+
+.link {
+    color: #007BFF; /* Color azul */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+}
+
+.link:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+input[type="file"] {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente para el input */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    color: white; /* Color del texto dentro del input */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el input */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave para cambios de color */
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo más claro al pasar el mouse o enfocar */
+    border-color: #80bdff; /* Cambia el color del borde al enfocar */
+}
+
+/* Estilo para el botón de seleccionar archivo */
+input[type="file"]::file-selector-button {
+    background-color: #007bff; /* Color del botón */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto del botón */
+    padding: 10px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para cambios de color */
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}

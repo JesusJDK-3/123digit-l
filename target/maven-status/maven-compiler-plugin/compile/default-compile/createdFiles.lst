@@ -1,0 +1,14 @@
+com\miempresa\conexionmysqltest\service\RequestService.class
+com\miempresa\conexionmysqltest\controllers\RequestController.class
+com\miempresa\conexionmysqltest\models\Request.class
+com\miempresa\conexionmysqltest\models\User.class
+com\miempresa\conexionmysqltest\controllers\LoginController.class
+com\miempresa\conexionmysqltest\resources\JakartaEE8Resource.class
+com\miempresa\conexionmysqltest\models\Comment.class
+com\miempresa\conexionmysqltest\dao\RequestDAO.class
+com\miempresa\conexionmysqltest\JakartaRestConfiguration.class
+com\miempresa\conexionmysqltest\models\Notification.class
+com\miempresa\conexionmysqltest\controllers\UserController.class
+com\miempresa\conexionmysqltest\Util\MySQLConnection.class
+com\miempresa\conexionmysqltest\dao\UserDAO.class
+com\miempresa\conexionmysqltest\service\UserService.class

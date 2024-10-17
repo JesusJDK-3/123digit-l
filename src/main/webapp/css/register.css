@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 oct 2024, 17:13:10
+    Author     : Luc-j
+*/
+
+/* General page styles */
+/* Estructura general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center; /* Centra todo el contenido */
+    align-items: center; /* Alinea verticalmente */
+    height: 100vh;
+    background: linear-gradient(150deg, #6C3483, #58D68D);
+}
+
+.register-form {
+    width: 35%;
+    padding: 40px;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h1 {
+    color: #58D68D;
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el título */
+}
+
+.register-form p {
+    font-size: 1.1em;
+    color: #555;
+    text-align: center; /* Centrar el texto del párrafo */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los inputs */
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center; /* Ancho completo para mantener consistencia */
+}
+
+.form-group input {
+    width: 100%; /* Ancho total del contenedor padre */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    max-width: 80%; /* Limitar el tamaño máximo de los inputs */
+}
+.form-group select{
+   width: 100%; /* Ancho total del contenedor padre */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    max-width: 84%; 
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 40px;
+    width: 50%;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.register-info {
+    width: 40%;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.register-info p {
+    font-size: 1.2em;
+    color: #fff;
+}
